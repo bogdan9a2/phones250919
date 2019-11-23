@@ -49,7 +49,6 @@ export class PhonesComponent extends BaseComponent {
     _render() {
         this._element.innerHTML = `
             <div class="row">
-
       <!--Sidebar-->
       <div class="col-md-2">
         <section>
@@ -57,7 +56,6 @@ export class PhonesComponent extends BaseComponent {
             Search:
             <input>
           </p>
-
           <p>
             Sort by:
             <select>
@@ -66,10 +64,8 @@ export class PhonesComponent extends BaseComponent {
             </select>
           </p>
         </section>
-
         <section class="cart"></section>
       </div>
-
       <!--Main content-->
       <div class="col-md-10">
         <div class="phones-catalog"></div>

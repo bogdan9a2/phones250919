@@ -26,13 +26,11 @@ export class PhonesCatalogComponent extends BaseComponent {
                            <a href="#!/phones/${phone.id}" class="thumb" data-phone-id=${phone.id}>
                                <img alt=${phone.name} src=${phone.imageUrl}>
                            </a>
-
                            <div class="phones__btn-buy-wrapper">
                                     <a class="btn btn-success add" data-phone-id=${phone.id}>
                                                     Add
                                     </a>
                            </div>
-
                            <a href="#!/phones/${phone.id}">${phone.name}</a>
                            <p>${phone.snippet}</p>
                      </li>

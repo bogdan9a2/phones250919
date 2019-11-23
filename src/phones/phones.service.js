@@ -154,7 +154,6 @@ const mockedPhones = [
     }
 ];
 
-
 const mockedPhone = {
     "additionalFeatures": "Contour Display, Near Field Communications (NFC), Three-axis gyroscope, Anti-fingerprint display coating, Internet Calling support (VoIP/SIP)",
     "android": {
@@ -223,8 +222,7 @@ const mockedPhone = {
         "flash": "16384MB",
         "ram": "512MB"
     }
-}
-
+};
 
 export const PhonesService = new class {
     constructor() {
@@ -235,7 +233,7 @@ export const PhonesService = new class {
         return mockedPhones;
     }
 
-    getOneById(id){
+    getOneById(id) {
         return mockedPhone;
     }
 };
